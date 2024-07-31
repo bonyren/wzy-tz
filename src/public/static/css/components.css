@@ -1,0 +1,55 @@
+.easyui-timeline {
+    padding-left: 5px;
+}
+.easyui-timeline .easyui-timeline-item {
+    position: relative;
+    padding-bottom: 20px;
+    list-style: none;
+}
+.easyui-timeline .easyui-timeline-item:before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 20px;
+    z-index: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #e6e6e6;
+}
+.easyui-timeline .easyui-timeline-item:first-child:before {
+    display: block;
+}
+.easyui-timeline .easyui-timeline-item:last-child:before {
+    display: none;
+}
+.easyui-timeline .easyui-timeline-axis {
+    position: absolute;
+    left: -5px;
+    top: 0;
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    color: #5FB878;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #5FB878;
+}
+.easyui-timeline .easyui-timeline-content {
+    padding-left: 25px;
+}
+.easyui-timeline .easyui-text {
+    line-height: 22px;
+    font-size: 14px;
+    color: #666;
+}
+.easyui-timeline .easyui-text h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.easyui-timeline .easyui-text .easyui-timeline-title {
+    position: relative;
+    margin-bottom: 10px;
+}
