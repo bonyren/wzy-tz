@@ -1,2 +1,0 @@
-<?php
- namespace app\index\controller; use think\Controller; use think\Log; use think\Debug; use think\Request; use app\index\logic\Redis as RedisLogic; class Redis extends Common { public function setData($key) { goto eup20; KyEhk: RedisLogic::I()->setData($key, $jsonStr); goto SxITN; SxITN: return ajaxSuccess("\346\210\x90\xe5\212\x9f"); goto wgVdL; eup20: $jsonStr = file_get_contents("\x70\150\x70\x3a\x2f\57\151\156\x70\165\164"); goto KyEhk; wgVdL: } }

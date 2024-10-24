@@ -1,2 +1,0 @@
-<?php
- namespace app\index\controller; use think\Controller; use think\Log; use think\Debug; use think\Request; class Help extends Common { public function help($topicId) { goto BGaaT; BGaaT: $helpLogic = \app\index\logic\Help::newObj(); goto DlGsu; yCpuZ: return $this->fetch($tpl); goto Ujy_x; DlGsu: $tpl = $helpLogic->getTpl($topicId); goto cDwX6; x_cy2: aBZBq: goto yCpuZ; DkMZu: return $this->fetch("\143\x6f\155\x6d\x6f\x6e\57\145\162\x72\x6f\x72"); goto x_cy2; cDwX6: if ($tpl) { goto aBZBq; } goto DkMZu; Ujy_x: } }

@@ -4,6 +4,11 @@
 
 《轻量级股权投资管理系统》是一套轻量级的股权投资项目管理，基金运营软件解决方案。它面向股权投资基金公司，为其提供一系列的日常业务管理工具，让业务开展和团队协作更高效，轻松，智能。
 
+### 测试系统演示
+[http://tz.wzyer.com](http://tz.wzyer.com)
+
+支持独立部署，详情请咨询技术支持。
+
 ### 技术支持
 [wzycoding@qq.com](mailto:wzycoding@qq.com)
 
@@ -12,15 +17,13 @@
 - mysql/MariaDB
 - Apache/Nginx Web Server
  
-### 系统依赖
-- thinkphp 5.0 framework
 
 ### 部署步骤
 1. 部署代码
 2. 部署Web server, document root为src\public
-2. 导入数据库配置wzyer_daohe.sql从src\db
-3. 修改数据库配置文件src\application\database.php
-4. Congratulation!, 访问系统，默认登录账号admin/123456, 切记：登录后立即修改密码
+2. 导入数据库配置
+3. 修改数据库配置文件
+4. Congratulation!, 访问系统
 
 ### 系统组成
 ![轻量级股权投资管理系统功能架构](https://images.gitee.com/uploads/images/2022/0306/160915_39dfdc2a_10482337.png "轻量级股权投资管理系统功能架构.png")
