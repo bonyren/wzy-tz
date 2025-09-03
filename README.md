@@ -14,16 +14,18 @@
 
 ### 运行环境
 - php 7.4
-- mysql/MariaDB
+- mysql 8.0
 - Apache/Nginx Web Server
  
 
 ### 部署步骤
-1. 部署代码
-2. 部署Web server, document root为src\public
-2. 导入数据库配置
-3. 修改数据库配置文件
-4. Congratulation!, 访问系统
+1. 下载部署代码
+2. 部署Web server, document根目录为 /public
+3. 创建数据库，修改数据库配置文件，位于 /application/database.php
+4. 导入数据库初始化脚本，位于 /db/db.sql
+5. 以下目录设置成web服务器运行用户可读写
+/runtime, /temp, /public/upload, /public/import, /public/export
+5. Congratulation!, 访问系统, 默认用户名/密码 test/123456
 
 ### 系统组成
 ![轻量级股权投资管理系统功能架构](https://images.gitee.com/uploads/images/2022/0306/160915_39dfdc2a_10482337.png "轻量级股权投资管理系统功能架构.png")

@@ -1,0 +1,30 @@
+<table class="table table-striped">
+    <tbody>
+        <tr>
+            <th>企业名称</th>
+        </tr>
+        <tr>
+            <td><?=$project['name']?></td>
+        </tr>
+        <tr>
+            <th>创始人</th>
+        </tr>
+        <tr>
+            <td><?=$founder['name']?></td>
+        </tr>
+        <tr>
+            <th>行业</th>
+        </tr>
+        <tr>
+            <td><?php echo \app\index\service\View::showTags(\app\index\logic\Tag::TAG_INDUSTRY,$project['id']); ?></td>
+        </tr>
+        <tr>
+            <th>项目简介</th>
+        </tr>
+        <tr>
+            <td>
+                <?=$project['description']?>
+            </td>
+        </tr>
+    </tbody>
+</table>

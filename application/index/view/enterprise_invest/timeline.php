@@ -1,0 +1,3 @@
+<div id="T<?=UNIQID?>" style="width:100%;"></div>
+<script type="text/javascript">
+var <?=JVAR?>={chart:null,init:function(){this.chart();},chart:function(){this.chart=$('#T<?=UNIQID?>').highcharts({chart:{type:'timeline'},credits:{enabled:false},xAxis:{visible:false},yAxis:{visible:false},title:{text:'<?=$bind['enterprise']['name']?>'},subtitle:{text:''},series:[{data:<?=json_encode($bind['chart_data'],JSON_UNESCAPED_UNICODE)?>,}]});}};<?=JVAR?>.init();</script>
