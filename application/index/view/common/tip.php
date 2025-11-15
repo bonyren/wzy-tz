@@ -1,1 +1,0 @@
-<div class="alert alert-info m-5" role="alert"><?=$message?></div>
